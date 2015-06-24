@@ -219,7 +219,7 @@ make & enjoy!
 #include <sys/stat.h>
 #include <sys/ioctl.h>
 
-#include <linux/videodev.h>
+//# include <linux/videodev.h>
 #include <linux/videodev2.h>
 
 #include <libv4l1.h>
