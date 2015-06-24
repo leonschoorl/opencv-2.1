@@ -1,1 +1,4 @@
+#my cmake command
 cmake -DWITH_PNG=0 -DWITH_FFMPEG=0 -DWITH_JASPER=0 -DWITH_TIFF=0 -DCMAKE_INSTALL_PREFIX=../install-2.1 .
+# make over 4 cores
+make -j4
