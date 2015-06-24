@@ -45,6 +45,7 @@
 
 #include "_highgui.h"
 #include "grfmts.h"
+#include <unistd.h>
 #undef min
 #undef max
 

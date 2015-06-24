@@ -42,6 +42,7 @@
 #include "mltest.h"
 #include <iostream>
 #include <fstream>
+#include <unistd.h>
 
 CV_SLMLTest::CV_SLMLTest( const char* _modelName, const char* _testName ) :
     CV_MLBaseTest( _modelName, _testName, "load-save" )
