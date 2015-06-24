@@ -45,7 +45,7 @@
 #include <algorithm>
 #include <vector>
 #include <iostream>
-
+#include <unistd.h>
 using namespace cv;
 using namespace cv::flann;
 
